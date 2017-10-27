@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<slot>
+    <time>
+        <val id="1">
+            <candidate>明天</candidate>
+            <alias>每天</alias>
+        </val>
+        <val id="2">
+            <candidate>8月3号</candidate>
+            <alias>8月3号</alias>
+        </val>
+        <val id="3">
+            <candidate>星期三</candidate>
+            <alias>期三</alias>
+        </val>
+        <val id="4">
+            <candidate>八月二十四号</candidate>
+            <alias>八月二十号</alias>
+        </val>
+        <val id="5">
+            <candidate>下周五</candidate>
+            <alias>周五</alias>
+        </val>
+    </time>
+
+    <location>
+        <val id="1">
+            <candidate>北京邮电大学</candidate>
+            <alias>北京锤雷大学</alias>
+        </val>
+        <val id="2">
+            <candidate>北戴河</candidate>
+            <alias>北大荒</alias>
+        </val>
+        <val id="3">
+            <candidate>海淀区</candidate>
+            <alias>海淀桥</alias>
+        </val>
+        <val id="4">
+            <candidate>人民大会堂</candidate>
+            <alias>名人大会堂</alias>
+        </val>
+        <val id="5">
+            <candidate>科研楼809</candidate>
+            <alias>科研楼09</alias>
+        </val>
+    </location>
+
+    <number>
+        <val id="1">
+            <candidate>1000</candidate>
+            <alias>1000</alias>
+        </val>
+        <val id="2">
+            <candidate>三十到五十</candidate>
+            <alias>三到五十</alias>
+        </val>
+        <val id="3">
+            <candidate>一百</candidate>
+            <alias>一</alias>
+        </val>
+        <val id="4">
+            <candidate>45</candidate>
+            <alias>15</alias>
+        </val>
+        <val id="5">
+            <candidate>4到5</candidate>
+            <alias>45</alias>
+        </val>
+    </number>
+
+    <money>
+        <val id="1">
+            <candidate>8000</candidate>
+            <alias>8</alias>
+        </val>
+        <val id="2">
+            <candidate>50元</candidate>
+            <alias>10元</alias>
+        </val>
+        <val id="3">
+            <candidate>800到1000</candidate>
+            <alias>100到1000</alias>
+        </val>
+        <val id="4">
+            <candidate>1992</candidate>
+            <alias>192</alias>
+        </val>
+        <val id="5">
+            <candidate>不超过500元</candidate>
+            <alias>超过500元</alias>
+        </val>
+    </money>
+
+    <duration>
+        <val id="1">
+            <candidate>四天</candidate>
+            <alias>十天</alias>
+        </val>
+        <val id="2">
+            <candidate>7到8天</candidate>
+            <alias>8天</alias>
+        </val>
+        <val id="3">
+            <candidate>几天</candidate>
+            <alias>7天</alias>
+        </val>
+        <val id="4">
+            <candidate>两周</candidate>
+            <alias>一周</alias>
+        </val>
+        <val id="5">
+            <candidate>1到2个星期</candidate>
+            <alias>2个星期</alias>
+        </val>
+    </duration>
+</slot>

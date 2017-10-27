@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<user>
+    <user_inform>
+        <time>
+            <template id="1">在 XXX 举行 。</template>
+            <template id="2">会议 初步 定 在 XXX 。</template>
+            <template id="3">XXX 吧 。</template>
+            <template id="4">XXX 。</template>
+            <template id="5">应该 是 在 XXX 。</template>
+        </time>
+
+        <location>
+            <template id="1">想在 XXX 开 这个 会 。</template>
+            <template id="2">在 XXX 吧。</template>
+            <template id="3">目前 定 在 XXX 开 。</template>
+            <template id="4">XXX 。</template>
+            <template id="5">地点 在 XXX 。</template>
+        </location>
+
+        <money>
+            <template id="1">预算 大概 是 XXX 。</template>
+            <template id="2">XXX 。</template>
+            <template id="3">预算 XXX 。</template>
+            <template id="4">按照 XXX 这个 标准 来 。</template>
+            <template id="5">会议 的 预算 是 XXX 。</template>
+        </money>
+
+        <number>
+            <template id="1">一共 有 XXX 人 参加 。</template>
+            <template id="2">可能 会 有 XXX 人 参加 。</template>
+            <template id="3">XXX 人 。</template>
+            <template id="4">XXX 吧 。</template>
+            <template id="5">估计 是 有 XXX 人 。</template>
+        </number>
+
+        <duration>
+            <template id="1">XXX 。</template>
+            <template id="2">大概 会 开 XXX 。</template>
+            <template id="3">可能 需要 XXX 。</template>
+            <template id="4">一共 要 开 XXX 。</template>
+            <template id="5">这个 会议 会 开 XXX 。</template>
+        </duration>
+    </user_inform>
+
+    <user_confirm>
+        <general_confirm>
+            <template id="1">是的 。</template>
+            <template id="2">嗯 。</template>
+        </general_confirm>
+        <special_confirm>
+            <time>
+                <template id="1">在 XXX 举行 。</template>
+            </time>
+
+            <location>
+                <template id="1">地点 在 XXX 。</template>
+            </location>
+
+            <money>
+                <template id="1">会议 预算 为 XXX 。</template>
+            </money>
+
+            <number>
+                <template id="1">XXX 。</template>
+            </number>
+
+            <duration>
+                <template id="1">要 开 XXX 。</template>
+            </duration>
+        </special_confirm>
+    </user_confirm>
+
+    <user_reject>
+        <template id="1">不是 。</template>
+        <template id="2">不对 。</template>
+        <template id="3">错了 。</template>
+    </user_reject>
+
+    <user_nothing>
+        <template id="1">沉默 。</template>
+        <template id="2">你 的 逻辑 有点 乱 。</template>
+        <template id="3">我 不 理解 你 的 意思 。</template>
+    </user_nothing>
+
+    <user_hello>
+        <template id="1">你好 。</template>
+        <template id="1">我 想 订 一个 会议室 。</template>
+    </user_hello>
+</user>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<agent>
+    <agent_ask>
+        <time>
+            <template id="1">这个 会议 在 什么 时候 开 呢 ？</template>
+            <template id="2">您 这个 会议 的 举行 日期 是 ？</template>
+            <template id="3">您 准备 什么 时间 召开 这个 会议 呢 ？</template>
+            <template id="4">这个 会议 在 哪天 举行 ？</template>
+            <template id="5">会议 的 具体 时间 是 ？</template>
+        </time>
+
+        <location>
+            <template id="1">您 准备 在 哪里 开会 呢 ？</template>
+            <template id="2">期望 的 开会 地点 是 ？</template>
+            <template id="3">那 您 准备 在 哪里 开会 ？</template>
+            <template id="4">有 比较 中意 的 会议 地点 吗 ？</template>
+            <template id="5">这个 会议 有没有 一个 大概 的 地点 ？</template>
+        </location>
+
+        <money>
+            <template id="1">您 有没有 一个 大概 的 预算 呢 ？</template>
+            <template id="2">会议 的 预算 大概 是 多少 ？</template>
+            <template id="3">您 的 预期 价位 是 多少 呢 ？</template>
+            <template id="4">那 您 希望 定 一个 多少 钱 的 会议室 ？</template>
+            <template id="5">会议室 的 价格 有 预期 嘛 ？</template>
+        </money>
+
+        <number>
+            <template id="1">这是 多少 人 的 会议 呢 ？</template>
+            <template id="2">您 预订 的 会议室 希望 容纳 多少 人 呢 ？</template>
+            <template id="3">大概 会 有 多少 人 参加 这个 会议 ？</template>
+            <template id="4">大概 有 多少 人 与会 呢 ？</template>
+            <template id="5">参会 人数 大概 是 多少 ？</template>
+        </number>
+
+        <duration>
+            <template id="1">您 准备 要开 一个 多长 时间 的 会议 呢 ？</template>
+            <template id="2">会议 会 持续 多长 时间 ？</template>
+            <template id="3">这个 会议 会 持续 多长 时间 呢 ？</template>
+            <template id="4">会议 会 开 多少 天 ？</template>
+            <template id="5">那么 您 这个 会议室 要 预定 多久 ？</template>
+        </duration>
+    </agent_ask>
+
+    <agent_confirm>
+        <time>
+            <template id="1">会议 是 在 XXX 召开 。</template>
+            <template id="2">会议 日期 是 在 XXX 嘛 ？</template>
+            <template id="3">该 会议 的 日期 定 在 了 XXX 。</template>
+        </time>
+
+        <location>
+            <template id="1">会议 是 在 XXX 举行 。</template>
+            <template id="2">地点 是 在 XXX 。</template>
+            <template id="3">在 XXX 举行 本次 会议。</template>
+        </location>
+
+        <money>
+            <template id="1">预算 是 XXX 嘛 ？</template>
+            <template id="2">预期 价位 是 XXX 。</template>
+            <template id="3">会议室 的 目标 价格 是 XXX 。</template>
+        </money>
+
+        <number>
+            <template id="1">一共 有 XXX 人 参加 。</template>
+            <template id="2">预期 有 XXX 人 参加 会议 。</template>
+            <template id="3">会议 有 XXX 人 来 参加 。</template>
+        </number>
+
+        <duration>
+            <template id="1">会议 持续 时间 是 XXX 。</template>
+            <template id="2">会议 时长 为 XXX 。</template>
+            <template id="3">大概 会开 XXX 的 会议 。</template>
+        </duration>
+    </agent_confirm>
+
+    <agent_nothing>
+        <template id="1">无响应 。</template>
+    </agent_nothing>
+
+    <agent_hello>
+        <template id="1">你好 。</template>
+        <template id="2">欢迎 使用 会议室 预定 系统 。</template>
+    </agent_hello>
+</agent>

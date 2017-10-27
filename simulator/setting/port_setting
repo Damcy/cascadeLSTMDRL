@@ -1,0 +1,6 @@
+# client port
+RECEIVE_PORT=8080
+# server port
+SERVER_PORT=8081
+# slots
+SLOTS="['time', 'location']"
